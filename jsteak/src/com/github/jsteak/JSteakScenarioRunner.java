@@ -35,6 +35,7 @@ public class JSteakScenarioRunner{
 				classUtil.run(clazz, e.getValue());
 			}catch(Throwable ex){
 				rn.fireTestFailure(new Failure(description, ex));
+				throw new RuntimeException(ex);
 			}
 			rn.fireTestRunFinished(r);
 			rn.fireTestFinished(description);
