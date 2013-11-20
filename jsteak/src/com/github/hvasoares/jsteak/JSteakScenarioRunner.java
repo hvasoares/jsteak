@@ -1,4 +1,4 @@
-package com.github.jsteak;
+package com.github.hvasoares.jsteak;
 
 import java.lang.reflect.Method;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunNotifier;
 
-import com.github.jsteak.resources.SampleFeature;
+import com.github.hvasoares.jsteak.resources.SampleFeature;
 
 public class JSteakScenarioRunner{
 	private Class<?> clazz;
